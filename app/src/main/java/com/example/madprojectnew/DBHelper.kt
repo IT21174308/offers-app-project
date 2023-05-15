@@ -14,6 +14,7 @@ class DBHelper(context:Context):SQLiteOpenHelper(context,"shopdata",null,1) {
         p0?.execSQL("create table discountdata(startDate TEXT,endDate TEXT,discount TEXT,description TEXT primary key,email TEXT,FOREIGN KEY (email) REFERENCES shopdata (email))")
     }
 
+
     override fun onUpgrade(p0: SQLiteDatabase?, p1: Int, p2: Int) {
         p0?.execSQL("drop table if exists shopdata")
         p0?.execSQL("drop table if exists discountdata")
@@ -97,6 +98,8 @@ class DBHelper(context:Context):SQLiteOpenHelper(context,"shopdata",null,1) {
         return cursor
 
     }
+
+
 }
 
 

@@ -21,4 +21,11 @@
     <string name="offer1">20% OFF for any Tea Brand 200g</string>
     <string name="removebut">REMOVE</string>
     <string name="addofferbut">ADD OFFER</string>
+    <string name="Supermarket">Supermarket</string>
+
+    <string-array name="category_options">
+        <item>Fashion shop</item>
+        <item>Supermarket</item>
+        <item>Restaurant</item>
+    </string-array>
 </resources>

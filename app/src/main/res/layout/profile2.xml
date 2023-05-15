@@ -14,6 +14,7 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="16dp"
         android:text="@string/startDate"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,6 +25,7 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="16dp"
         android:text="@string/endDate"
+        android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/textView7"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -34,6 +36,7 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="16dp"
         android:text="@string/discount"
+        android:textColor="@color/black"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@+id/textView13"
         app:layout_constraintTop_toTopOf="parent" />
@@ -45,6 +48,7 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="16dp"
         android:text="@string/Description"
+        android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/textView14"
         app:layout_constraintTop_toTopOf="parent" />
 

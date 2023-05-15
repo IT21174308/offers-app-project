@@ -25,7 +25,7 @@
             android:layout_marginTop="116dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/startDate"
+            android:hint="@string/startDate"
             android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -57,7 +57,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/discount"
+        android:hint="@string/discount"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
@@ -70,7 +70,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/Description"
+        android:hint="@string/Description"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
@@ -97,7 +97,7 @@
         android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/endDate"
+        android:hint="@string/endDate"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout3" />
@@ -110,7 +110,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/Email"
+        android:hint="@string/Email"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
 
